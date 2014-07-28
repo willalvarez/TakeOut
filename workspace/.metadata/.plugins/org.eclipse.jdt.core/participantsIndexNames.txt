@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+/TakeOut/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/243899096.index
+/myHelloWorldJavaWebPage/src

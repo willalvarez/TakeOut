@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Menu" representedClassName="Menu" syncable="YES">
+        <attribute name="item_category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restaurant" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrderDetail" representedClassName="OrderDetail" syncable="YES">
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemQty" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="orderNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="OrderHeader" representedClassName="OrderHeader" syncable="YES">
+        <attribute name="numberOfItems" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderBuyer" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="orderNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderSeller" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderTax" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="orderTotalAmount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Menu" positionX="-36" positionY="90" width="128" height="90"/>
+        <element name="OrderDetail" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="OrderHeader" positionX="-54" positionY="18" width="128" height="193"/>
+        <element name="User" positionX="-45" positionY="72" width="128" height="90"/>
+    </elements>
+</model>
